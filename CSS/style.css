@@ -18,6 +18,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 li {
   /* Supprimer le cercle noir en haut de la liste */
   list-style: none;
@@ -42,6 +43,7 @@ ul.top_menu {
 .top_menu li.right {
  float: right;
  width: auto;
+
 }
 
 .top_menu li a {
@@ -49,6 +51,7 @@ ul.top_menu {
   padding: 15px;
   display: block;
   text-decoration: none;
+
 }
 
 .top_menu li a:hover {
@@ -163,19 +166,19 @@ float: left;
   height: 50px;
 } */
 
-.zone{
+.name{
   width: 480px;
-  height: 20px;
+  height: 25px;
 }
 
-.zone1{
+.email{
   width: 480px;
-  height: 10px;
+  height: 25px;
 }
 
-.zone3{
-  width: 50px;
-  height: 20px;
+.CTInquiry{
+  width: 480px;
+  height: 25px;
 }
 
 label{
