@@ -1,0 +1,262 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15px;;
+  width: auto;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+  margin-left: 20px;
+  padding-right: 20px;
+  height: 400px;
+}
+
+
+}
+
+ul {
+  /* Supprimer les marges */
+  margin: 0;
+  padding: 0;
+}
+li {
+  /* Supprimer le cercle noir en haut de la liste */
+  list-style: none;
+}
+
+.header {
+  background-color: #000;
+  height: 50px;
+  font-size: 1.5rem;
+  width: auto;
+  margin-left: 20px;
+  padding-right: 20px;
+
+}
+.class {
+  /* background-color: #2d3436; */
+  font-style: #2d3436
+  /* height: 100px;
+  font-size: 1.5rem;
+  width: auto;
+  margin-left: 20px;
+  padding-right: 20px; */
+}
+
+/* ul.top_menu { */
+  float: left;
+}
+
+ul#menu_horizontal {  /*Ici , c'est ma configuration, à vous de la changer */
+width :50;
+height : 40px;
+/* color: #fff;
+list-style-type : none; /* Car sinon les puces se placent n'importe où */ */
+}
+
+ul#menu_horizontal li {
+padding : 15px; /* Pour espacer les boutons entre eux */
+}
+
+li.bouton_gauche {
+float : left;
+
+}
+
+li.bouton_droite {
+float : right;
+}
+li a {
+  color: #fff;
+  padding: 15px;
+  display: inline;
+  text-decoration: none;
+}
+
+/* .top_menu li {
+ float: left;
+ width: auto;
+}
+
+
+
+.top_menu li a {
+  color: #fff;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+}
+
+.top_menu li a:hover {
+  text-decoration: none;
+} */
+
+
+/*
+
+nav {
+width: 90%;
+height: 80px;
+font-size: 1.5rem;
+margin-left: 20px;
+
+background-color: #333;
+padding-right: 20px;
+
+
+li {
+
+  list-style: none;
+}
+
+/* permet de disposer les ul en horizontale */
+
+ /* nav ul {
+  display: flex;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center
+  padding: 10px;
+
+ li a {
+  text-decoration: none;
+} */
+
+
+
+
+
+
+/* nav a {
+ text-decoration: none;
+ color: #fff;
+} */
+
+/* .nav li {
+  width: 120px;
+  border-bottom: none;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+} */
+
+
+/* .nav li {
+ display: inline-block;
+} */
+
+/* margin-right: -4px; */
+
+/* .nav li {
+ float: left;
+} */
+
+/* .nav li {
+ float: right;
+} */
+/* .nav ul {
+  overflow: auto;
+} */
+
+/* width: 600px;
+margin: 0 auto; */
+
+/* .nav li {
+  width: 120px;
+  border-bottom: none;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  margin-left: -4px;
+} */
+
+
+
+
+
+
+
+
+.function p{
+  color: #000;
+}
+
+/* Implémentation de la partie d'en-tête */
+.main-header img {
+  background-image: url("../images/achieve.jpg");
+  height: 150px;
+  width: 300px;
+  background-attachment: fixed;
+  position: absolute;
+  left: 400px;
+  top: 250px;
+}
+
+/* Implémentation de l'image principale (image des caractères blancs "Achieve") */
+
+.about {
+  margin-left: 20px;
+  width: 90%;
+
+/* About Implémentation de la partie Achieve */
+}
+
+.about p{
+	 margin-top: 40px;
+margin-left: 20px;
+  text-align: center;
+  color: #000;
+}
+/* ​ */
+.function {
+ margin-top: 40px;
+margin-left: 20px;
+padding-right: 20px;
+  background-color: #f7f1e3;
+
+}
+
+h1{
+  text-align: center;
+}
+
+.function-images {
+
+  display: flex;
+  content: center;
+  align-items: center;
+  /* justify-content: center; */
+
+  align-content: space-between;
+  justify-content: space-around;
+
+
+}
+p{
+  text-align: justify;
+  color: #fff;
+}
+.function-image {
+}
+
+
+/* Implémentation de la partie Function */
+footer {
+  margin-left: 20px;
+  padding-right: 20px;
+  background-color: #353b48;
+/* Implémentation du pied de page */
+}
+
+footer p{
+  text-align: center;
+  bottom: 0;
+  color :#fff;
+  padding-bottom: 0px;
+}
