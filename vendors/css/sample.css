@@ -30,7 +30,7 @@ li {
 }
 
 .header {
-  background-color: #000;
+  background-color: #2d3436;
   height: 50px;
   font-size: 1.5rem;
   width: auto;
@@ -194,7 +194,7 @@ margin: 0 auto; */
   width: 300px;
   background-attachment: fixed;
   position: absolute;
-  left: 400px;
+  left: 500px;
   top: 250px;
 }
 
@@ -209,7 +209,7 @@ margin: 0 auto; */
 
 .about p{
 	 margin-top: 40px;
-margin-left: 20px;
+   margin-left: 20px;
   text-align: center;
   color: #000;
 }
